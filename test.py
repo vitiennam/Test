@@ -91,3 +91,18 @@ col_dir = 'cats/*.jpg'
 
 #creating a collection with the available images
 col = imread_collection(col_dir)
+
+
+# fast load image
+dir = 'data/'
+list = [os.path.join(dir,f) for f in os.listdir(dir)]
+print(list)
+
+startTime = time.time()
+for img in list:
+    image = io.imread(img)
+print("time: ", time.time() - startTime)
+startTime = time.time()
+col = io.imread_collection(list)
+print("time: ", time.time() - startTime)
+print (col[0])
