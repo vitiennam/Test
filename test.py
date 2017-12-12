@@ -82,3 +82,12 @@ for i in range(10):
             if data3[j][k][i] != data5[j][k][i]:
                 print("Wrong")
 print("OK")
+
+
+from skimage.io import imread_collection
+
+#your path 
+col_dir = 'cats/*.jpg'
+
+#creating a collection with the available images
+col = imread_collection(col_dir)
