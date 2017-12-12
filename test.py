@@ -99,11 +99,15 @@ list = [os.path.join(dir,f) for f in os.listdir(dir)]
 print(list)
 
 startTime = time.time()
+image = []
 for img in list:
-    image = io.imread(img)
+    image.append( io.imread(img))
+print (len(image))
 print("time: ", time.time() - startTime)
 startTime = time.time()
 col = io.imread_collection(list)
 print("time: ", time.time() - startTime)
-io.imshow(col[1])
+# io.imshow(col[1])
+print(sys.getsizeof(image))
+print(sys.getsizeof(col))
 pyplot.show()
