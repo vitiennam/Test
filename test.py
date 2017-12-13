@@ -110,4 +110,6 @@ print("time: ", time.time() - startTime)
 # io.imshow(col[1])
 print(sys.getsizeof(image))
 print(sys.getsizeof(col))
+del col
+del image
 pyplot.show()
