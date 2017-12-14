@@ -3,7 +3,8 @@ import time
 import json
 import codecs
 import random
-
+# http://www.iri.upc.edu/people/esimo/en/research/fashion/
+# http://hi.cs.waseda.ac.jp/~esimo/en/data/fashion550k/
 data = {}
 # data['people'] = []
 # data['people'].append(
