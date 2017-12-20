@@ -6,6 +6,9 @@ import random
 # http://www.iri.upc.edu/people/esimo/en/research/fashion/
 # http://hi.cs.waseda.ac.jp/~esimo/en/data/fashion550k/
 # https://github.com/bearpaw/clothing-co-parsing
+
+#tool segment
+# http://web.archive.org/web/20110825025054/http://kspace.cdvp.dcu.ie:80/public/interactive-segmentation/screenshots.html
 data = {}
 # data['people'] = []
 # data['people'].append(
