@@ -9,6 +9,7 @@ import random
 
 #tool segment
 # http://web.archive.org/web/20110825025054/http://kspace.cdvp.dcu.ie:80/public/interactive-segmentation/screenshots.html
+# https://www.researchgate.net/post/What_is_the_best_fee_software_for_image_segmentation
 data = {}
 # data['people'] = []
 # data['people'].append(
