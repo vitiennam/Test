@@ -6,7 +6,7 @@ import random
 # http://www.iri.upc.edu/people/esimo/en/research/fashion/
 # http://hi.cs.waseda.ac.jp/~esimo/en/data/fashion550k/
 # https://github.com/bearpaw/clothing-co-parsing
-
+#https://www.pyimagesearch.com/2016/10/24/ubuntu-16-04-how-to-install-opencv/
 #tool segment
 # http://web.archive.org/web/20110825025054/http://kspace.cdvp.dcu.ie:80/public/interactive-segmentation/screenshots.html
 # https://www.researchgate.net/post/What_is_the_best_fee_software_for_image_segmentation
