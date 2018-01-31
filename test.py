@@ -3,6 +3,7 @@ import time
 import json
 import codecs
 import random
+#http://vision.imar.ro/human3.6m/description.php
 #https://deeplearning4j.org/opendata
 #https://github.com/ShownX/FacePaperCollection
 #https://gist.github.com/smajida/8b86fe93b3c736a55146bc009cf771ab
